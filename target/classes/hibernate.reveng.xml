@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="TF_F_FEEPOLICY" schema="BILLING"
+		class="FeePolicyObj">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+		<column name="PARTITION_ID"></column>
+		<column name="ID_TYPE"></column>
+		<column name="RELA_USER_ID"></column>
+		<column name="PRODUCT_ID"></column>
+		<column name="SERV_BUND_ID"></column>
+		<column name="SERV_ID"></column>
+		<column name="FEEPOLICY_BUND_ID"></column>
+		<column name="START_DATE"></column>
+		<column name="END_DATE"></column>
+		<column name="UPDATE_TIME"></column>
+		<column name="UPDATE_DEPART_ID"></column>
+		<column name="UPDATE_STAFF_ID"></column>
+	</table>
+</hibernate-reverse-engineering>
